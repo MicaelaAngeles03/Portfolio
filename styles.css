@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+nav {
+    background-color: #101010;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0%;;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: rgba(124, 255, 43, 0.745);
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #222228;
+    color: white;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #1d1521;
+    border: none;
+    border-color: black;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 21px;
+    background-color: burlywood;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.expertise img {
+    width: 100px;
+    margin: 10px;
+}
+
+
+.speaker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: burlywood;
+}
+.speakers h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.speaker {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    flex: 1 1 calc(25% - 2em);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.div .content{
+    background-color: burlywood;
+}
+
+.speaker img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.projects img {
+    width: 300px;
+    margin: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #4E4E4E;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
